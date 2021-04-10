@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: lightblue url("../images/background.png") no-repeat fixed center;
+  background-size: auto;
+}
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+
+.nav-link[data-toggle].collapsed:after {
+  content: " ▾";
+}
+.nav-link[data-toggle]:not(.collapsed):after {
+  content: " ▴";
+}
+
+
+
